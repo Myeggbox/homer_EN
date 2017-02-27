@@ -478,19 +478,31 @@ select {
 }
 /* ======= Promo ======= */
 .promo {
-  padding-top: 120px;
+  padding-top: 0px;
   position: relative;
   color: #fff;
-  margin-bottom:140px;
+  margin-bottom:160px;
   height: 620px;
   z-index: 10;
 }
-.promo .title {
-  font-size: 46px;
+.promo .title {  
+  padding-left: 5%;
+  font-size: 66px;
   margin-bottom: 0px;
   margin-top: 0;
-  font-weight: 100;
+  font-weight: 10;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #392146;
+}
+.promo .chiffre {
+  padding-left: 5%;
+  font-size: 126px;
+  margin-bottom: 0px;
+  margin-top: 0;
+  font-weight: 10;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #392146;
 }
 .promo.section .intro {
   color: #fff;
@@ -502,10 +514,6 @@ select {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5)
 }
 
-.promo .index {
-  padding-top: 30px;
-  background-color: rgba(39, 21, 46, .4);
-  }
 .promo .btn-cta {
   font-size: 18px;
 }
@@ -1057,6 +1065,16 @@ select {
   margin-top: 0;
   margin-bottom: 60px;
 }
+
+.steps .blocs {
+color: black;
+}
+.steps .blocs .title {
+font-size: 69;
+
+
+}
+
 .steps .step {
   padding: 30px 60px;
   color: #666;
@@ -1221,6 +1239,12 @@ select {
   font-weight: 400;
   color: #b3b3b3;
 }
+.pricing .item .price-figure .astero {
+  font-weight: 0;
+  color: #b3b3b3;
+  font-style: italic;
+  font-size: 12px;
+}
 .pricing .item .price-figure .currency {
   top: -12px;
   right: 2px;
@@ -1228,6 +1252,14 @@ select {
   font-family: arial, sans-serif;
   color: #666;
   font-size: 18px;
+}
+.pricing .item .price-figure .asterix {
+  top: -10px;
+  right: 2px;
+  position: relative;
+  font-family: arial, sans-serif;
+  color: #666;
+  font-size: 28px;
 }
 .pricing .item .ribbon {
   position: absolute;
